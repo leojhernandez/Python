@@ -16,3 +16,4 @@ with open('new_file.csv', 'r') as file_2:              # now lets open that new 
     for line in reader_2:
         print(line)          
 # ignore
+# ignore once again 
