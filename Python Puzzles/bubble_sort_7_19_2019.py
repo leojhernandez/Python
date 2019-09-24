@@ -8,7 +8,7 @@ def bubblesort(lst):
   for passes_left in range(len(lst)-1,0,1):
     for index in range(passes_left):
       if lst[index] > lst[index +1]: 
-        lst[index], lst[index +1] = lst[index +1], lst[index]
+          lst[index], lst[index +1] = lst[index +1], lst[index]
   return lst
 
 l = [27,0,23,90,71,77]
