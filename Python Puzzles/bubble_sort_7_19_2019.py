@@ -14,3 +14,5 @@ def bubblesort(lst):
 l = [27,0,23,90,71,77]
 print(bubblesort(l))
 
+
+# credit @ chris@finxter.com
