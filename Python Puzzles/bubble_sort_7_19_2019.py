@@ -5,7 +5,7 @@
 # until the list is sorted.
 
 def bubblesort(lst):
-    for passes_left in range(len(lst)-1, 0, 1):
+    for passes_left in range(len(lst)-1, 0, -1):
         for index in range(passes_left):
             if lst[index] > lst[index + 1]:
                 lst[index], lst[index + 1] = lst[index + 1], lst[index]
